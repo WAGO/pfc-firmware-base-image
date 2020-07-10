@@ -1,0 +1,7 @@
+image: wagoautomation/pfc-firmware-base-image:latest
+manifests:
+  - image: wagoautomation/pfc-firmware-base-image:latest
+    platform:
+      architecture: arm
+      os: linux
+      variant: v7
