@@ -4,7 +4,7 @@ COPY resources /
 RUN rm -rf /boot 
 RUN rm -rf /usr/lib/modules
 RUN rm -rf /var/www
-RUN rm -rf /usr/bin/qemu-arm-static
+#RUN rm -rf /usr/bin/qemu-arm-static
 
 FROM scratch
 LABEL maintainer="sergei.ikkert@wago.com"
