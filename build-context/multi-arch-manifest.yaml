@@ -2,6 +2,10 @@ image: wagoautomation/pfc-firmware-base-image:latest
 manifests:
   - image: wagoautomation/pfc-firmware-base-image:latest
     platform:
+      architecture: amd64
+      os: linux      
+  - image: wagoautomation/pfc-firmware-base-image:latest
+    platform:
       architecture: arm
       os: linux
       variant: v7
